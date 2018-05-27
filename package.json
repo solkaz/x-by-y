@@ -10,7 +10,7 @@
   },
   "main": "dist/x-by-y.umd.js",
   "module": "dist/x-by-y.es5.js",
-  "typings": "dist/types/x-by-y.d.ts",
+  "typings": "dist/types/index.d.ts",
   "files": ["dist"],
   "keywords": ["typescript", "map", "es6-map"],
   "devDependencies": {
