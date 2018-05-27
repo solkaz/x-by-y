@@ -37,7 +37,7 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "src/**/*.ts": ["prettier --write", "tslint --fix", "git add"],
+    "{src,__tests__}/**/*.ts": ["prettier --write", "tslint --fix", "git add"],
     "./**/*.json": ["prettier --write", "git add"]
   },
   "jest": {
