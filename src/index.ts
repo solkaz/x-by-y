@@ -1,5 +1,3 @@
-import 'core-js/fn/map';
-
 export type XByYMap<Y extends X[keyof X], X> = Map<Y, X>;
 
 export function createXByYMap<Y extends X[K], X, K extends keyof X>(
