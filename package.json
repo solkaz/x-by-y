@@ -8,6 +8,11 @@
     "email": "jheld135@gmail.com",
     "url": "https://github.com/solkaz"
   },
+  "homepage": "https://github.com/solkaz/x-by-y#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solkaz/x-by-y.git"
+  },
   "main": "dist/x-by-y.umd.js",
   "module": "dist/x-by-y.es5.js",
   "typings": "dist/types/index.d.ts",
