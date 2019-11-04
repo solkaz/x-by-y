@@ -1,0 +1,8 @@
+pre-commit:
+  commands:
+    prettier:
+      glob: "./{src,__tests__}/**/*.ts"
+      run: yarn prettier --write {staged_files}
+    tslint:
+      glob: "./{src,__tests__}/**/*.ts"
+      run: yarn tslint --fix {staged_files}
